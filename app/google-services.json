@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "411567232793",
+    "firebase_url": "https://blooddonationapp-231dd.firebaseio.com",
+    "project_id": "blooddonationapp-231dd",
+    "storage_bucket": "blooddonationapp-231dd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:411567232793:android:a47bf0b356a25e63",
+        "android_client_info": {
+          "package_name": "com.muskankataria2408.blooddonationapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "411567232793-ogihbjf7c5u86lhbiglvalu1qh9trsh0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.muskankataria2408.blooddonationapp",
+            "certificate_hash": "0d53c9f1cb3cae7949b7aea6fca454d3300ac8e8"
+          }
+        },
+        {
+          "client_id": "411567232793-e7qjrgi8vo95kefnoet6c6ct570tq43p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYVN4aW4S1fPPHWzdjNu5My-vpvHngbjc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "411567232793-e7qjrgi8vo95kefnoet6c6ct570tq43p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:411567232793:android:aa6f9e357096ec4e",
+        "android_client_info": {
+          "package_name": "com.startupnationgo.blooddonationapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "411567232793-e7qjrgi8vo95kefnoet6c6ct570tq43p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYVN4aW4S1fPPHWzdjNu5My-vpvHngbjc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "411567232793-e7qjrgi8vo95kefnoet6c6ct570tq43p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.muskankataria2408.blooddonationapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="Settings.ACTION_SECURITY_SETTINGS" />
+    <uses-permission android:name="Settings.ACTION_LOCATION_SOURCE_SETTINGS" />
+
+    <!-- <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="23"/> -->
+    <!-- <uses-permission android:name="android.permission.WAKE_LOCK" /> -->
+    <!-- <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" /> -->
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/blood"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/blood"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBbcc3bY_z_GBstrv_fVpP6RBiv3zRFoKE" />
+
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SplashScreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/App">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="Login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MobileAuthActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/App" />
+        <activity
+            android:name=".Register"
+            android:label="SignUp"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MyProfile"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/App" />
+        <activity
+            android:name=".EditProfile"
+            android:label="Edit Profile"
+            android:parentActivityName=".MyProfile"
+            android:screenOrientation="portrait" />
+
+        <service android:name=".MyFirebaseInstanceIdService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+                <action android:name="com.muskankataria2408.blooddonationapp.Notification" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".Notification"
+            android:label="Notifications"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.muskankataria2408.blooddonationapp.Notification" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RequestProfile"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".Notification"
+            android:label="User Details"
+            />
+        <activity
+            android:name=".EditMobile"
+            android:screenOrientation="portrait"
+            android:theme="@style/App" />
+
+    </application>
+
+</manifest>

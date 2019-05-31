@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="12dp">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/Notification_card"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
+        android:elevation="20dp"
+        android:paddingBottom="10dp"
+        app:cardCornerRadius="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="205dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_weight="1"
+                android:text="Requested By "
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <TextView
+                android:id="@+id/bloodgroup"
+                android:layout_width="128dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="4dp"
+                android:layout_weight="1"
+                android:text="BloodGroup :  B+"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/name" />
+
+            <TextView
+                android:id="@+id/mobile"
+                android:layout_width="198dp"
+                android:layout_height="34dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="4dp"
+                android:layout_weight="1"
+                android:text="Mobile No. +919039816856 "
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/bloodgroup" />
+
+
+            <Button
+                android:id="@+id/details"
+                android:layout_width="116dp"
+                android:layout_height="38dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:text="View"
+                android:textColor="#fff"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/delete"
+                android:layout_width="116dp"
+                android:layout_height="38dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:background="#D32F2F"
+                android:text="Delete"
+                android:textColor="#fff"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/details" />
+
+
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
