@@ -7,9 +7,8 @@ Application for direct interaction of blood donors and Seekers. Using Firebase D
 
 <image src="images/image7.png" width="220" height="370"> <image src="images/image8.png" width="220" height="370"> <image src="images/image9.png" width="220" height="370">
 
-<image src="images/image10.png" width="220" height="370"> <image src="images/image11.png" width="220" height="370"> <image src="images/image12.png" width="220" height="370">
+<image src="images/image10.png" width="220" height="370"> <image src="images/image11.png" width="220" height="370"> <image src="images/image13.png" width="220" height="370">
 
-<image src="images/image11.png" width="220" height="370"> 
 
 
 
