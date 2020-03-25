@@ -12,9 +12,8 @@ Application for direct interaction of blood donors and Seekers. Using Firebase D
 
 # Navigate to destination 
 
-<image src="images/image10.png" width="220" height="370">
-  On clicking start navigation it redirects to Google maps with required navigation endpoints
-  <image src="images/image11.png" width="220" height="370"> <image src="images/image13.png" width="220" height="370">
+<image src="images/image10.png" width="220" height="370">On clicking start navigation it redirects to Google maps with required navigation endpoints
+<image src="images/image11.png" width="220" height="370"> <image src="images/image13.png" width="220" height="370">
 
 
 
